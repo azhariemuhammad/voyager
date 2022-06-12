@@ -1,0 +1,1586 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm": {
+    "isCaseSensitive": false,
+    "store": "/Users/azharie_muhammad/.pnpm-store/2"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "voyager",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve --open",
+        "build": "webpack --mode production"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/azhariemuhammad/voyager.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/azhariemuhammad/voyager/issues"
+      },
+      "homepage": "https://github.com/azhariemuhammad/voyager#readme",
+      "devDependencies": {
+        "@babel/core": "^7.18.2",
+        "@babel/plugin-proposal-class-properties": "^7.17.12",
+        "@babel/preset-react": "^7.17.12",
+        "@types/react": "^18.0.12",
+        "@types/react-dom": "^18.0.5",
+        "@types/webpack": "^5.28.0",
+        "@types/webpack-dev-server": "^4.7.2",
+        "@typescript-eslint/eslint-plugin": "^5.27.1",
+        "@typescript-eslint/parser": "^5.27.1",
+        "babel-loader": "^8.2.5",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^6.7.1",
+        "eslint": "^8.17.0",
+        "eslint-plugin-react": "^7.30.0",
+        "eslint-plugin-react-hooks": "^4.5.0",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.1",
+        "ts-loader": "^9.3.0",
+        "typescript": "^4.7.3",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.2"
+      },
+      "dependencies": {
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+      }
+    },
+    "prefix": "/Users/azharie_muhammad/Documents/side_project/voyager"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react/18.1.0",
+    "wanted": {
+      "name": "react",
+      "rawSpec": "^18.1.0"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react/18.1.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-dom/18.1.0",
+    "wanted": {
+      "name": "react-dom",
+      "rawSpec": "^18.1.0"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/core/7.18.2",
+    "wanted": {
+      "name": "@babel/core",
+      "rawSpec": "^7.18.2"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-proposal-class-properties/7.17.12",
+    "wanted": {
+      "name": "@babel/plugin-proposal-class-properties",
+      "rawSpec": "^7.17.12"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/preset-react/7.17.12",
+    "wanted": {
+      "name": "@babel/preset-react",
+      "rawSpec": "^7.17.12"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/react/18.0.12",
+    "wanted": {
+      "name": "@types/react",
+      "rawSpec": "^18.0.12"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react/18.0.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/react-dom/18.0.5",
+    "wanted": {
+      "name": "@types/react-dom",
+      "rawSpec": "^18.0.5"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react-dom/18.0.5",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/webpack/5.28.0",
+    "wanted": {
+      "name": "@types/webpack",
+      "rawSpec": "^5.28.0"
+    }
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/webpack-dev-server/4.7.2",
+    "wanted": {
+      "name": "@types/webpack-dev-server",
+      "rawSpec": "^4.7.2"
+    }
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.27.1",
+    "wanted": {
+      "name": "@typescript-eslint/eslint-plugin",
+      "rawSpec": "^5.27.1"
+    }
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+    "wanted": {
+      "name": "@typescript-eslint/parser",
+      "rawSpec": "^5.27.1"
+    }
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-loader/8.2.5",
+    "wanted": {
+      "name": "babel-loader",
+      "rawSpec": "^8.2.5"
+    }
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-preset-react/6.24.1",
+    "wanted": {
+      "name": "babel-preset-react",
+      "rawSpec": "^6.24.1"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-preset-react/6.24.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/css-loader/6.7.1",
+    "wanted": {
+      "name": "css-loader",
+      "rawSpec": "^6.7.1"
+    }
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-react/7.30.0",
+    "wanted": {
+      "name": "eslint-plugin-react",
+      "rawSpec": "^7.30.0"
+    }
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/8.17.0",
+    "wanted": {
+      "name": "eslint",
+      "rawSpec": "^8.17.0"
+    }
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-react-hooks/4.5.0",
+    "wanted": {
+      "name": "eslint-plugin-react-hooks",
+      "rawSpec": "^4.5.0"
+    }
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+    "wanted": {
+      "name": "html-webpack-plugin",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ts-loader/9.3.0",
+    "wanted": {
+      "name": "ts-loader",
+      "rawSpec": "^9.3.0"
+    }
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/style-loader/3.3.1",
+    "wanted": {
+      "name": "style-loader",
+      "rawSpec": "^3.3.1"
+    }
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.7.3",
+    "wanted": {
+      "name": "typescript",
+      "rawSpec": "^4.7.3"
+    }
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.7.3",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack/5.73.0",
+    "wanted": {
+      "name": "webpack",
+      "rawSpec": "^5.73.0"
+    }
+  },
+  "31 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-cli/4.9.2",
+    "wanted": {
+      "name": "webpack-cli",
+      "rawSpec": "^4.9.2"
+    }
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-dev-server/4.9.2",
+    "wanted": {
+      "name": "webpack-dev-server",
+      "rawSpec": "^4.9.2"
+    }
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react/18.1.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react-dom/18.0.5",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/react/18.0.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-preset-react/6.24.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/core/7.18.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/core/7.18.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/plugin-proposal-class-properties/7.17.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/plugin-proposal-class-properties/7.17.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "43 debug pnpm:deprecation": {
+    "deprecated": "This is a stub types definition. webpack-dev-server provides its own type definitions, so you do not need this installed.",
+    "depth": 0,
+    "pkgId": "registry.npmjs.org/@types/webpack-dev-server/4.7.2",
+    "pkgName": "@types/webpack-dev-server",
+    "pkgVersion": "4.7.2",
+    "prefix": "/Users/azharie_muhammad/Documents/side_project/voyager"
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/webpack-dev-server/4.7.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/webpack-dev-server/4.7.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/webpack/5.28.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/webpack/5.28.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-loader/8.2.5",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-loader/8.2.5",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/css-loader/6.7.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/css-loader/6.7.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-react-hooks/4.5.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-react-hooks/4.5.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ts-loader/9.3.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ts-loader/9.3.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "60 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/style-loader/3.3.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/style-loader/3.3.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "62 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@ampproject/remapping/2.2.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@ampproject/remapping",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@ampproject/remapping/2.2.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "64 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/code-frame/7.16.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/code-frame",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/code-frame/7.16.7",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "66 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/generator/7.18.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/generator",
+      "rawSpec": "^7.18.2"
+    }
+  },
+  "67 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/generator/7.18.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "68 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helper-module-transforms/7.18.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/helper-module-transforms",
+      "rawSpec": "^7.18.0"
+    }
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/helper-module-transforms/7.18.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "70 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helper-compilation-targets/7.18.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/helper-compilation-targets",
+      "rawSpec": "^7.18.2"
+    }
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helpers/7.18.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/helpers",
+      "rawSpec": "^7.18.2"
+    }
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/helpers/7.18.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "73 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/parser/7.18.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/parser",
+      "rawSpec": "^7.18.0"
+    }
+  },
+  "74 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/parser/7.18.4",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "75 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/template/7.16.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/template",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "76 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/template/7.16.7",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "77 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/traverse/7.18.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/traverse",
+      "rawSpec": "^7.18.2"
+    }
+  },
+  "78 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/traverse/7.18.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "79 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/types/7.18.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "@babel/types",
+      "rawSpec": "^7.18.2"
+    }
+  },
+  "80 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/types/7.18.4",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "81 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/convert-source-map/1.8.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "convert-source-map",
+      "rawSpec": "^1.7.0"
+    }
+  },
+  "82 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/convert-source-map/1.8.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "83 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "debug",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "84 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/gensync/1.0.0-beta.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "gensync",
+      "rawSpec": "^1.0.0-beta.2"
+    }
+  },
+  "85 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/gensync/1.0.0-beta.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "86 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/json5/2.2.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "json5",
+      "rawSpec": "^2.2.1"
+    }
+  },
+  "87 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/json5/2.2.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "88 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/6.3.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/core/7.18.2",
+      "name": "semver",
+      "rawSpec": "^6.3.0"
+    }
+  },
+  "89 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/6.3.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "90 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helper-create-class-features-plugin/7.18.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/plugin-proposal-class-properties/7.17.12",
+      "name": "@babel/helper-create-class-features-plugin",
+      "rawSpec": "^7.17.12"
+    }
+  },
+  "91 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helper-plugin-utils/7.17.12",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/plugin-proposal-class-properties/7.17.12",
+      "name": "@babel/helper-plugin-utils",
+      "rawSpec": "^7.17.12"
+    }
+  },
+  "92 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/helper-plugin-utils/7.17.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "93 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helper-plugin-utils/7.17.12",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+      "name": "@babel/helper-plugin-utils",
+      "rawSpec": "^7.17.12"
+    }
+  },
+  "94 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/helper-validator-option/7.16.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+      "name": "@babel/helper-validator-option",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "95 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/helper-validator-option/7.16.7",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "96 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-transform-react-display-name/7.16.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+      "name": "@babel/plugin-transform-react-display-name",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "97 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-transform-react-jsx/7.17.12",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+      "name": "@babel/plugin-transform-react-jsx",
+      "rawSpec": "^7.17.12"
+    }
+  },
+  "98 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-transform-react-jsx-development/7.16.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+      "name": "@babel/plugin-transform-react-jsx-development",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "99 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-transform-react-pure-annotations/7.18.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/preset-react/7.17.12",
+      "name": "@babel/plugin-transform-react-pure-annotations",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "100 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-dev-server/4.9.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@types/webpack-dev-server/4.7.2",
+      "name": "webpack-dev-server",
+      "rawSpec": "*"
+    }
+  },
+  "101 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/node/17.0.42",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@types/webpack/5.28.0",
+      "name": "@types/node",
+      "rawSpec": "*"
+    }
+  },
+  "102 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/node/17.0.42",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "103 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tapable/2.2.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@types/webpack/5.28.0",
+      "name": "tapable",
+      "rawSpec": "^2.2.0"
+    }
+  },
+  "104 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tapable/2.2.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "105 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack/5.73.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@types/webpack/5.28.0",
+      "name": "webpack",
+      "rawSpec": "^5"
+    }
+  },
+  "106 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/scope-manager/5.27.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+      "name": "@typescript-eslint/scope-manager",
+      "rawSpec": "5.27.1"
+    }
+  },
+  "107 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/scope-manager/5.27.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "108 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/types/5.27.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+      "name": "@typescript-eslint/types",
+      "rawSpec": "5.27.1"
+    }
+  },
+  "109 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/types/5.27.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "110 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/typescript-estree/5.27.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+      "name": "@typescript-eslint/typescript-estree",
+      "rawSpec": "5.27.1"
+    }
+  },
+  "111 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@typescript-eslint/parser/5.27.1",
+      "name": "debug",
+      "rawSpec": "^4.3.4"
+    }
+  },
+  "112 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/find-cache-dir/3.3.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/babel-loader/8.2.5",
+      "name": "find-cache-dir",
+      "rawSpec": "^3.3.1"
+    }
+  },
+  "113 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/find-cache-dir/3.3.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/loader-utils/2.0.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/babel-loader/8.2.5",
+      "name": "loader-utils",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/loader-utils/2.0.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "116 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/make-dir/3.1.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/babel-loader/8.2.5",
+      "name": "make-dir",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "117 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/make-dir/3.1.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "118 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/schema-utils/2.7.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/babel-loader/8.2.5",
+      "name": "schema-utils",
+      "rawSpec": "^2.6.5"
+    }
+  },
+  "119 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/schema-utils/2.7.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "120 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/icss-utils/5.1.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "icss-utils",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "121 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss/8.4.14",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "postcss",
+      "rawSpec": "^8.4.7"
+    }
+  },
+  "122 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/postcss/8.4.14",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "123 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss-modules-scope/3.0.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "postcss-modules-scope",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "124 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss-modules-extract-imports/3.0.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "postcss-modules-extract-imports",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "125 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss-modules-values/4.0.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "postcss-modules-values",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "126 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss-value-parser/4.2.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "postcss-value-parser",
+      "rawSpec": "^4.2.0"
+    }
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/postcss-value-parser/4.2.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "128 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/postcss-modules-local-by-default/4.0.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "postcss-modules-local-by-default",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "129 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/css-loader/6.7.1",
+      "name": "semver",
+      "rawSpec": "^7.3.5"
+    }
+  },
+  "130 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.7",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "131 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/html-minifier-terser/6.1.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+      "name": "@types/html-minifier-terser",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/html-minifier-terser/6.1.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "133 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/html-minifier-terser/6.1.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+      "name": "html-minifier-terser",
+      "rawSpec": "^6.0.2"
+    }
+  },
+  "134 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/html-minifier-terser/6.1.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "135 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lodash/4.17.21",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+      "name": "lodash",
+      "rawSpec": "^4.17.21"
+    }
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash/4.17.21",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "137 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/pretty-error/4.0.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+      "name": "pretty-error",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pretty-error/4.0.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "139 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tapable/2.2.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/html-webpack-plugin/5.5.0",
+      "name": "tapable",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "140 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/ts-loader/9.3.0",
+      "name": "chalk",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "141 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "142 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/enhanced-resolve/5.9.3",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/ts-loader/9.3.0",
+      "name": "enhanced-resolve",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "143 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/enhanced-resolve/5.9.3",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "144 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/micromatch/4.0.5",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/ts-loader/9.3.0",
+      "name": "micromatch",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "145 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/micromatch/4.0.5",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "146 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/ts-loader/9.3.0",
+      "name": "semver",
+      "rawSpec": "^7.3.4"
+    }
+  },
+  "147 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-cli/4.9.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-cli/4.9.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "149 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  },
+  "151 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/@babel/traverse/7.18.2",
+      "name": "debug",
+      "rawSpec": "4.3.4"
+    }
+  },
+  "152 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv/6.12.6",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/schema-utils/2.7.1",
+      "name": "ajv",
+      "rawSpec": "6.12.6"
+    }
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ajv/6.12.6",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "154 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv-keywords/3.5.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/schema-utils/2.7.1",
+      "name": "ajv-keywords",
+      "rawSpec": "3.5.2_ajv@6.12.6"
+    }
+  },
+  "155 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@discoveryjs/json-ext/0.5.7",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "@discoveryjs/json-ext",
+      "rawSpec": "^0.5.0"
+    }
+  },
+  "156 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@discoveryjs/json-ext/0.5.7",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "157 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@webpack-cli/configtest/1.1.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "@webpack-cli/configtest",
+      "rawSpec": "^1.1.1"
+    }
+  },
+  "158 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@webpack-cli/info/1.4.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "@webpack-cli/info",
+      "rawSpec": "^1.4.1"
+    }
+  },
+  "159 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@webpack-cli/serve/1.6.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "@webpack-cli/serve",
+      "rawSpec": "^1.6.1"
+    }
+  },
+  "160 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/colorette/2.0.17",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "colorette",
+      "rawSpec": "^2.0.14"
+    }
+  },
+  "161 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/colorette/2.0.17",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "162 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/commander/7.2.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "commander",
+      "rawSpec": "^7.0.0"
+    }
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/commander/7.2.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "164 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/execa/5.1.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "execa",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/execa/5.1.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "166 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fastest-levenshtein/1.0.12",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "fastest-levenshtein",
+      "rawSpec": "^1.0.12"
+    }
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fastest-levenshtein/1.0.12",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "168 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-local/3.1.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "import-local",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-local/3.1.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "170 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rechoir/0.7.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "rechoir",
+      "rawSpec": "^0.7.0"
+    }
+  },
+  "171 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rechoir/0.7.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "172 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/interpret/2.2.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "interpret",
+      "rawSpec": "^2.2.0"
+    }
+  },
+  "173 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/interpret/2.2.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "174 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-merge/5.8.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-cli/4.9.2",
+      "name": "webpack-merge",
+      "rawSpec": "^5.7.3"
+    }
+  },
+  "175 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/webpack-merge/5.8.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "176 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/bonjour/3.5.10",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/bonjour",
+      "rawSpec": "^3.5.9"
+    }
+  },
+  "177 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/bonjour/3.5.10",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "178 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/connect-history-api-fallback/1.3.5",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/connect-history-api-fallback",
+      "rawSpec": "^1.3.5"
+    }
+  },
+  "179 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/connect-history-api-fallback/1.3.5",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "180 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/express/4.17.13",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/express",
+      "rawSpec": "^4.17.13"
+    }
+  },
+  "181 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/express/4.17.13",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "182 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/serve-index/1.9.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/serve-index",
+      "rawSpec": "^1.9.1"
+    }
+  },
+  "183 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/serve-index/1.9.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "184 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/serve-static/1.13.10",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/serve-static",
+      "rawSpec": "^1.13.10"
+    }
+  },
+  "185 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/serve-static/1.13.10",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "186 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/sockjs/0.3.33",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/sockjs",
+      "rawSpec": "^0.3.33"
+    }
+  },
+  "187 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/sockjs/0.3.33",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "188 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/ws/8.5.3",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "@types/ws",
+      "rawSpec": "^8.5.1"
+    }
+  },
+  "189 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/ws/8.5.3",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "190 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-html-community/0.0.8",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "ansi-html-community",
+      "rawSpec": "^0.0.8"
+    }
+  },
+  "191 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ansi-html-community/0.0.8",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "192 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/bonjour-service/1.0.13",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "bonjour-service",
+      "rawSpec": "^1.0.11"
+    }
+  },
+  "193 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/bonjour-service/1.0.13",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "194 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chokidar/3.5.3",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "chokidar",
+      "rawSpec": "^3.5.3"
+    }
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "196 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/colorette/2.0.17",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "colorette",
+      "rawSpec": "^2.0.10"
+    }
+  },
+  "197 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/compression/1.7.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "compression",
+      "rawSpec": "^1.7.4"
+    }
+  },
+  "198 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/compression/1.7.4",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "199 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/connect-history-api-fallback/1.6.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "connect-history-api-fallback",
+      "rawSpec": "^1.6.0"
+    }
+  },
+  "200 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/connect-history-api-fallback/1.6.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "201 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/default-gateway/6.0.3",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "default-gateway",
+      "rawSpec": "^6.0.3"
+    }
+  },
+  "202 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/default-gateway/6.0.3",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "203 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.18.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "express",
+      "rawSpec": "^4.17.3"
+    }
+  },
+  "204 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.18.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "205 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "graceful-fs",
+      "rawSpec": "^4.2.6"
+    }
+  },
+  "206 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/graceful-fs/4.2.10",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "207 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/html-entities/2.3.3",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "html-entities",
+      "rawSpec": "^2.3.2"
+    }
+  },
+  "208 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/html-entities/2.3.3",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "209 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/http-proxy-middleware/2.0.6",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "http-proxy-middleware",
+      "rawSpec": "^2.0.3"
+    }
+  },
+  "210 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ipaddr.js/2.0.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "ipaddr.js",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "211 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ipaddr.js/2.0.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "212 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/open/8.4.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "open",
+      "rawSpec": "^8.0.9"
+    }
+  },
+  "213 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/open/8.4.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "214 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/p-retry/4.6.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "p-retry",
+      "rawSpec": "^4.5.0"
+    }
+  },
+  "215 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/p-retry/4.6.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "216 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rimraf/3.0.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "rimraf",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "217 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rimraf/3.0.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "218 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/schema-utils/4.0.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "schema-utils",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "219 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/schema-utils/4.0.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "220 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/selfsigned/2.0.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "selfsigned",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "221 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/selfsigned/2.0.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "222 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/serve-index/1.9.1",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "serve-index",
+      "rawSpec": "^1.9.1"
+    }
+  },
+  "223 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/serve-index/1.9.1",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "224 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sockjs/0.3.24",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "sockjs",
+      "rawSpec": "^0.3.24"
+    }
+  },
+  "225 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sockjs/0.3.24",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "226 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/spdy/4.0.2",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "spdy",
+      "rawSpec": "^4.0.2"
+    }
+  },
+  "227 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/spdy/4.0.2",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "228 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/webpack-dev-middleware/5.3.3",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "webpack-dev-middleware",
+      "rawSpec": "^5.3.1"
+    }
+  },
+  "229 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ws/8.8.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/webpack-dev-server/4.9.2",
+      "name": "ws",
+      "rawSpec": "^8.4.2"
+    }
+  },
+  "230 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv/8.11.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/schema-utils/4.0.0",
+      "name": "ajv",
+      "rawSpec": "8.11.0"
+    }
+  },
+  "231 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ajv/8.11.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "232 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv-keywords/5.1.0",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/schema-utils/4.0.0",
+      "name": "ajv-keywords",
+      "rawSpec": "5.1.0_ajv@8.11.0"
+    }
+  },
+  "233 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "registry.npmjs.org/spdy/4.0.2",
+      "name": "debug",
+      "rawSpec": "4.3.4"
+    }
+  },
+  "234 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "pkgsStack": []
+    },
+    "err": {
+      "name": "Error",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/Users/azharie_muhammad/Documents/side_project/voyager/sucrase/register/ts\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "Error: No package.json (or package.yaml, or package.json5) was found in \"/Users/azharie_muhammad/Documents/side_project/voyager/sucrase/register/ts\".\n    at readProjectManifest (/usr/local/lib/node_modules/pnpm/lib/node_modules/@pnpm/read-project-manifest/lib/index.js:20:11)\n    at async Object.readProjectManifestOnly (/usr/local/lib/node_modules/pnpm/lib/node_modules/@pnpm/read-project-manifest/lib/index.js:24:26)\n    at async Object.resolveLocal [as default] (/usr/local/lib/node_modules/pnpm/lib/node_modules/@pnpm/local-resolver/lib/index.js:29:35)\n    at async Object.resolve (/usr/local/lib/node_modules/pnpm/lib/node_modules/@pnpm/default-resolver/lib/index.js:15:20)\n    at async run (/usr/local/lib/node_modules/pnpm/lib/node_modules/p-queue/dist/index.js:255:29)"
+    }
+  },
+  "235 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-react/7.30.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "resolved"
+  },
+  "236 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-react/7.30.0",
+    "requester": "/Users/azharie_muhammad/Documents/side_project/voyager",
+    "status": "found_in_store"
+  }
+}
