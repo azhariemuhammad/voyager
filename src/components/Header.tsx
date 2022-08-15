@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Avatar from './Avatar';
+import Avatar from "./Avatar";
 
 const Header = () => {
   return (
@@ -9,12 +9,12 @@ const Header = () => {
       <h1 className="text-4xl my-4 font-bold">Azharie</h1>
       <ul className="list-none flex my-5">
         <li className="pr-2">
-          <a href="#" className="text-lg my-4">
+          <a href="/" className="text-lg my-4">
             About
           </a>
         </li>
         <li className="px-2 text-[#9999]">
-          <a href="#" className="text-lg my-4">
+          <a href="/blog" className="text-lg my-4">
             Blog
           </a>
         </li>

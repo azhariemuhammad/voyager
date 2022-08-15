@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import About from './pages/About';
-import Header from './components/Header';
+import About from "./pages/About";
+import Header from "./components/Header";
+import { routes } from "./routes";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 xl:px-0">
             <div className="mt-[40px]">
               <Header />
-              <About />
+              {routes}
             </div>
           </div>
         </div>
