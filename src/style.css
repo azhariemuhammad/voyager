@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container-app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 40px;
+  width: auto;
+  height: auto;
+  place-content: center flex-start;
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
