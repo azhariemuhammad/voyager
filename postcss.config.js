@@ -1,4 +1,13 @@
-import tailwindcss from 'tailwindcss';
+// import tailwindcss from "tailwindcss";
+// import autoprefixer from "autoprefixer";
+// module.exports = {
+//   plugins: ["postcss-preset-env", autoprefixer, tailwindcss],
+// };
+
 module.exports = {
-  plugins: ['postcss-preset-env', tailwindcss],
+  plugins: {
+    "postcss-import": {},
+    tailwindcss: {},
+    autoprefixer: {},
+  },
 };

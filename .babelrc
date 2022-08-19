@@ -8,7 +8,10 @@
     [
       "@babel/plugin-transform-runtime",
       {
-        "regenerator": true
+        "regenerator": true,
+        "absoluteRuntime": false,
+        "corejs": false,
+        "helpers": true
       }
     ]
   ]

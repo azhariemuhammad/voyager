@@ -2,12 +2,15 @@ import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import tailwindcss from "tailwindcss";
 import postcssPresetEnv from "postcss-preset-env";
+import nodeExternals from "webpack-node-externals";
 
 import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
+
 import type { Configuration } from "webpack";
+import { BannerPlugin } from "webpack";
 
 const htmlPlugin = new HtmlWebpackPlugin({
-  template: "./src/index.html",
+  template: "./public/index.html",
   filename: "./index.html",
 });
 
@@ -47,11 +50,59 @@ const config: Configuration = {
   },
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "bundle.js",
+    filename: "public/client.bundle.js",
   },
   devtool: "inline-source-map",
   plugins: [htmlPlugin, postcssPresetEnv, tailwindcss],
   devServer,
 };
 
-export default config;
+const serverConfig: Configuration = {
+  entry: "./server/index.ts",
+  target: "node",
+  devtool: "source-map",
+  externals: [nodeExternals()],
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
+  },
+  output: {
+    path: path.resolve(__dirname, "build"),
+    filename: "server.bundle.js",
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: [
+              "@babel/preset-env",
+              "@babel/preset-react",
+              "@babel/preset-typescript",
+            ],
+          },
+        },
+      },
+      {
+        test: /\.css$/i,
+        include: path.resolve(__dirname, "src"),
+        use: [
+          "style-loader",
+          { loader: "css-loader", options: { importLoaders: 1 } },
+          "postcss-loader",
+        ],
+      },
+    ],
+  },
+  plugins: [
+    new BannerPlugin({
+      banner: 'require("source-map-support").install();',
+      raw: true,
+      entryOnly: false,
+    }),
+  ],
+};
+
+export default [config, serverConfig];
