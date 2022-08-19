@@ -1,23 +1,31 @@
 import path from "path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import tailwindcss from "tailwindcss";
+import { merge } from "webpack-merge";
 import postcssPresetEnv from "postcss-preset-env";
+import MiniCssExtractPlugin from "mini-css-extract-plugin";
+import sharedConfig from "./webpack.shared.config";
 
 import type { Configuration as DevServerConfiguration } from "webpack-dev-server";
-import type { Configuration } from "webpack";
 
+import type { Configuration } from "webpack";
+import { BannerPlugin } from "webpack";
+
+const clientPort = 8080;
 const htmlPlugin = new HtmlWebpackPlugin({
-  template: "./src/index.html",
+  template: "./public/index.html",
   filename: "./index.html",
 });
 
 const devServer: DevServerConfiguration = {
   static: path.join(__dirname, "build"),
   compress: true,
-  port: 3000,
+  port: clientPort,
+  liveReload: true,
 };
 
 const config: Configuration = {
+  target: "web",
   entry: "./src/index.tsx",
   module: {
     rules: [
@@ -38,7 +46,7 @@ const config: Configuration = {
       {
         test: /\.css$/i,
         include: path.resolve(__dirname, "src"),
-        use: ["style-loader", "css-loader", "postcss-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
     ],
   },
@@ -46,12 +54,20 @@ const config: Configuration = {
     extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    path: path.resolve(__dirname, "build"),
-    filename: "bundle.js",
+    path: path.resolve(__dirname, "build/client"),
+    filename: "public/client.bundle.js",
+    publicPath: `http://localhost:${clientPort}/`,
   },
   devtool: "inline-source-map",
-  plugins: [htmlPlugin, postcssPresetEnv, tailwindcss],
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: "styles/bundle.css",
+    }),
+    htmlPlugin,
+    postcssPresetEnv,
+    tailwindcss,
+  ],
   devServer,
 };
 
-export default config;
+export default merge(sharedConfig, config);
