@@ -7,12 +7,9 @@ import "./style.css";
 import App from "./App";
 
 const container = document.getElementById("app-root");
-const root = hydrateRoot(
+hydrateRoot(
   container,
   <BrowserRouter>
     <App />,
   </BrowserRouter>
-); // createRoot(container!) if you use TypeScript
-// root.render(
-
-// );
+);

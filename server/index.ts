@@ -1,5 +1,4 @@
-import Fastify, { FastifyInstance, RouteShorthandOptions } from "fastify";
-import { Server, IncomingMessage, ServerResponse } from "http";
+import Fastify, { FastifyInstance } from "fastify";
 import path from "path";
 
 import fastifyStatic from "@fastify/static";
@@ -14,7 +13,7 @@ server.register(fastifyStatic, {
 
 server.get("*", {}, handleRender);
 
-server.listen({ port: 3001 }, (err) => {
+server.listen({ port: 3000 }, (err) => {
   if (err) {
     server.log.error(err);
     process.exit(1);

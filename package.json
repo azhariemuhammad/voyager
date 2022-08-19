@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development ./src/index",
-    "build": "webpack --mode production",
+    "build:server": "webpack --config webpack.server.config.ts",
     "build:tailwind": "tailwindcss -i ./src/style.css -o ./build/output.css",
-    "dev:server": "cd build && node server.bundle.js",
-    "clean": "rm -rf build"
+    "start:server": "node build/server/bundle.js",
+    "dev:server": "nodemon --ignore build --exec 'run-s clean build:server start:server'",
+    "dev:client": "webpack serve --config webpack.client.config.ts",
+    "clean": "rm -rf build",
+    "dev": "run-p dev:client dev:server"
   },
   "repository": {
     "type": "git",
@@ -46,6 +48,8 @@
     "eslint-plugin-react-hooks": "^4.5.0",
     "html-webpack-plugin": "^5.5.0",
     "install-peers": "^1.0.4",
+    "mini-css-extract-plugin": "^2.6.1",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
     "postcss-loader": "^7.0.0",
@@ -59,6 +63,7 @@
     "webpack": "^5.73.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.2",
+    "webpack-merge": "^5.8.0",
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
@@ -66,6 +71,7 @@
     "@fastify/static": "^6.5.0",
     "babel-runtime": "^6.26.0",
     "fastify": "^4.5.0",
+    "nodemon": "^2.0.19",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0"
