@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div className="max-w-full">
       <p className="my-6">
         I&lsquo;m a Software engineer with over 4 years of experience. Living in
         Makassar - Indonesia. I started my career as Angular dev and now my

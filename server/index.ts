@@ -1,24 +1,16 @@
-import Fastify, { FastifyInstance } from "fastify";
+import express from "express";
 import path from "path";
-
-import fastifyStatic from "@fastify/static";
 import handleRender from "./renderer";
 
-const server: FastifyInstance = Fastify({});
+const PORT = process.env.PORT || 3000;
+const app = express();
 
-server.register(fastifyStatic, {
-  root: path.join(__dirname, "public"),
-  prefix: "/public/",
-});
+app.get("/", handleRender);
 
-server.get("*", {}, handleRender);
+app.use(
+  express.static(path.resolve(__dirname, ".", "public"), { maxAge: "30d" })
+);
 
-server.listen({ port: 3000 }, (err) => {
-  if (err) {
-    server.log.error(err);
-    process.exit(1);
-  }
-
-  const address = server.server.address();
-  const port = typeof address === "string" ? address : address?.port;
+app.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
 });

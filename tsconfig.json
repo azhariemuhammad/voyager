@@ -23,6 +23,14 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "webpack.config.ts"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "webpack.config.ts",
+    "webpack.server.config.ts",
+    "webpack.shared.config.ts",
+    "webpack.client.config.ts",
+    "server/index.ts"
+  ],
   "exclude": ["node_modules"]
 }
