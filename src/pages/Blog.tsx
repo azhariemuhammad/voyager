@@ -19,13 +19,15 @@ const Blog = () => {
             target="_blank"
             key={item.guid}
           >
-            <div className="mr-16 text-amber-500">{index}</div>
+            <div className="mr-16 md:text-5xl lg:text-3xl text-amber-500">
+              {index}
+            </div>
             <div className="w-full">
-              <div className="title text-md group-hover:text-amber-500 font-semibold">
+              <h2 className="title lg:text-xl md:text-4xl group-hover:text-amber-500 font-semibold">
                 {item.title}
-              </div>
+              </h2>
               <div>
-                <p className="text-xs text-gray-600">
+                <p className="mt-2 lg:text-sm md:text-2xl text-gray-600">
                   {dayjs(item.pubDate).format("MMMM DD, YYYY")}
                 </p>
               </div>

@@ -18,24 +18,24 @@ const Header = () => {
   return (
     <>
       <Avatar />
-      <h1 className="text-4xl my-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <h1 className="lg:text-4xl md:text-6xl my-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         Azharie Muhammad
       </h1>
-      <ul className="list-none flex my-5">
-        <li className="pr-2 text-[#9999]">
+      <ul className="list-none flex lg:mt-8 md:mt-16 md:mb-24 lg:mb-16">
+        <li className="md:pr-4 lg:pr-2 text-[#9999]">
           <Link
             to="/"
-            className={`my-4 text-lg ${
+            className={`my-4 lg:text-base md:text-4xl ${
               activePath.blog && "text-amber-500"
             } hover:text-amber-500`}
           >
             Blog
           </Link>
         </li>
-        <li className="px-2 text-[#9999]">
+        <li className="md:px-4 lg:px-2 text-[#9999]">
           <Link
             to="/about"
-            className={`my-4 text-lg ${
+            className={`my-4 lg:text-base md:text-4xl ${
               activePath.about && "text-amber-500"
             } hover:text-amber-500`}
           >
@@ -53,10 +53,6 @@ const Header = () => {
           </a>
         </li> */}
       </ul>
-      {/* <div className="relative flex py-5 items-center">
-        <div className="flex-grow border-t border-gray-300"></div>
-        <div className="flex-grow border-t border-gray-300"></div>
-      </div> */}
     </>
   );
 };
