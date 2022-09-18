@@ -56,7 +56,7 @@ const config: Configuration = {
   output: {
     path: path.resolve(__dirname, "build/client"),
     filename: "public/client.bundle.js",
-    publicPath: `http://localhost:${clientPort}/`,
+    // publicPath: `http://localhost:${clientPort}/`,
   },
   devtool: "inline-source-map",
   plugins: [
