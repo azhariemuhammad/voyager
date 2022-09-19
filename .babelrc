@@ -5,14 +5,7 @@
     "@babel/preset-typescript"
   ],
   "plugins": [
-    [
-      "@babel/plugin-transform-runtime",
-      {
-        "regenerator": true,
-        "absoluteRuntime": false,
-        "corejs": false,
-        "helpers": true
-      }
-    ]
+    "transform-commonjs-es2015-modules",
+    "@babel/plugin-transform-runtime"
   ]
 }

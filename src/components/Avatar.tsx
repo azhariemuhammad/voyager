@@ -2,12 +2,12 @@ import React from "react";
 
 const Avatar = () => {
   return (
-    <div className="w-3/5">
-      {/* <img
+    <div className="w-[120px] relative left-[-25px] bg-violet-300 rounded-full">
+      <img
         className="rounded-full"
-        src="https://media-exp2.licdn.com/dms/image/C4E03AQGrz8mIFh6UJg/profile-displayphoto-shrink_100_100/0/1646741618459?e=1660780800&v=beta&t=6cGvwXzZFcQRT34Wwi8aobXmEMKnwDGCysQMLVFVmII"
+        src="https://user-images.githubusercontent.com/19600009/190895758-9ab050a6-a617-405d-a69a-0ab30ffc0614.PNG"
         alt="Avatar or Logo"
-      ></img> */}
+      ></img>
     </div>
   );
 };

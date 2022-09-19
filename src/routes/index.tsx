@@ -8,8 +8,8 @@ import Blog from "../pages/Blog";
 export const routes = (
   <Routes>
     <Route path="/" element={<Layout />}>
-      <Route index element={<Blog />} />
-      <Route path="/about" element={<About />}></Route>
+      <Route index element={<About />} />
+      <Route path="/stories" element={<Blog />}></Route>
     </Route>
   </Routes>
 );

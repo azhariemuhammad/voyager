@@ -19,6 +19,10 @@ const config: Configuration = {
               "@babel/preset-react",
               "@babel/preset-typescript",
             ],
+            plugins: [
+              "transform-commonjs-es2015-modules",
+              "@babel/plugin-transform-runtime",
+            ],
           },
         },
       },

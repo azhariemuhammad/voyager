@@ -41,13 +41,7 @@ const serverConfig: Configuration = {
       },
     ],
   },
-  plugins: [
-    // new BannerPlugin({
-    //   banner: 'require("source-map-support").install();',
-    //   raw: true,
-    //   entryOnly: false,
-    // }),
-  ],
+  plugins: [],
 };
 
 export default merge(sharedConfig, serverConfig);

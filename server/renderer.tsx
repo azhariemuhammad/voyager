@@ -6,7 +6,7 @@ import { StaticRouter } from "react-router-dom/server";
 
 import App from "../src/App";
 
-const clientBundleScript = `<script type="module" src="http://localhost:8080/server/bundle.js"></script>`; // [B]
+const clientBundleScript = `<script src="http://localhost:8080/server/bundle.js"></script>`; // [B]
 const clientBundleStyle = `<link rel="stylesheet" href="http://localhost:8080/styles/bundle.css">`; // [B]
 
 function handleRender(req, res) {
@@ -29,7 +29,7 @@ function handleRender(req, res) {
     </html>`;
   res.type("text/html").send(htmlTemplate);
 
-  return res.send(data.replace(htmlTemplate));
+  return res.send(htmlTemplate);
 }
 
 export default handleRender;
