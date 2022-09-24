@@ -56,7 +56,7 @@ async function createServer(
       let template = await fs.readFile("dist/client/index.html", "utf-8");
 
       template = await vite.transformIndexHtml(url, template);
-      const { render } = await vite.ssrLoadModule("/server/renderer.tsx");
+      const { render } = await vite.ssrLoadModule("/src/entry-server.tsx");
 
       const context = {};
       const appHtml = render(url, context);
