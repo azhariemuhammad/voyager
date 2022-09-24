@@ -20,3 +20,28 @@ a {
 html {
   @apply text-gray-800;
 }
+
+h1 {
+  font-size: calc(2em * var(--text-multiplier, 1));
+}
+
+p {
+  font-size: calc(1em * var(--text-multiplier, 1));
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --text-multiplier: 1.25;
+  }
+}
+
+.grow {
+  transition: height 2s;
+  /* width: 22%; */
+  transition: 1.5s;
+  /* width: fit-content; */
+}
+
+.grow:hover {
+  width: 150px;
+}

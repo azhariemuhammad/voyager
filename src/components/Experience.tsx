@@ -45,10 +45,10 @@ const ExperienceList = () => {
                 {item.jobTitle}
               </motion.div>
               <motion.div layout>
-                <p className="text-sm">
+                <p>
                   <span>{item.company}</span> <span>{item.contract}</span>
                 </p>
-                <p className="text-xs">
+                <p>
                   <span>{item.startDate}</span> - <span>{item.endDate}</span>{" "}
                 </p>
               </motion.div>

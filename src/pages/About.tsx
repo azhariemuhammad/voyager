@@ -1,7 +1,25 @@
 import React from "react";
-import { AnimateSharedLayout, AnimatePresence } from "framer-motion";
+import { AnimateSharedLayout, motion } from "framer-motion";
 
-import ExperienceList from "../components/Experience";
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+};
+
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
 
 const About = () => {
   const skills = [
@@ -13,6 +31,8 @@ const About = () => {
     "Framer",
     "CI/CD",
     "Tailwind",
+    "Webpack",
+    "Vite",
   ];
   return (
     <div className="max-w-full">
@@ -39,24 +59,32 @@ const About = () => {
         </a>
       </p>
 
-      <AnimateSharedLayout>
+      {/* <AnimateSharedLayout>
         <ExperienceList />
-      </AnimateSharedLayout>
+      </AnimateSharedLayout> */}
 
-      <div className="mt-20 flex">
+      <div className="mt-20 flex sm:flex-col">
         <div>
-          <h2 className="text-4xl py-6">4+ years of experience</h2>
+          <h2 className="text-4xl py-6">
+            I've spent most of my development life in Frontend things!
+          </h2>
         </div>
-        <div className="w-4/5 flex flex-wrap">
+        <motion.div
+          className="flex flex-wrap"
+          variants={container}
+          initial="hidden"
+          animate="visible"
+        >
           {skills.map((skill, idx) => (
-            <div
+            <motion.div
               key={idx}
-              className="bg-violet-900 shadow-violet-400 m-2 text-white w-fit rounded-full cursor-pointer shadow-md hover:shadow-lg py-1 px-3"
+              variants={item}
+              className=" bg-violet-900 w-fit sm:text-4xl lg:text-xl shadow-violet-400 m-2 text-white w-fit rounded-full cursor-pointer shadow-md hover:shadow-lg lg:py-2 lg:px-4 py-4 px-6"
             >
               {skill}
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
