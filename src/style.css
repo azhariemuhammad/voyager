@@ -21,7 +21,7 @@ html {
   @apply text-gray-800;
 }
 
-h1 {
+/* h1 {
   font-size: calc(2em * var(--text-multiplier, 1));
 }
 
@@ -33,7 +33,7 @@ p {
   :root {
     --text-multiplier: 1.25;
   }
-}
+} */
 
 .grow {
   transition: height 2s;

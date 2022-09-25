@@ -16,12 +16,12 @@ const Header = () => {
   return (
     <>
       <Avatar />
-      <h1 className="lg:text-4xl mt-2 md:text-6xl my-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <h1 className="lg:text-4xl mt-2 text-3xl my-4 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         Azharie Muhammad
       </h1>
 
-      <ul className="list-none flex lg:mt-8 md:mt-16 md:mb-24 lg:mb-16">
-        <li className="md:pr-4 lg:pr-2 text-[#9999]">
+      <ul className="list-none flex lg:mt-8 mt-4 mb-8 lg:mb-16">
+        <li className="pr-2 lg:pr-2 text-gray-500">
           <Link
             to="/"
             className={`my-4 lg:text-base md:text-4xl ${
@@ -31,7 +31,7 @@ const Header = () => {
             About
           </Link>
         </li>
-        <li className="md:px-4 lg:px-2 text-[#9999]">
+        <li className="px-2 lg:px-2 text-gray-500">
           <Link
             to="/stories"
             className={`my-4 lg:text-base md:text-4xl ${

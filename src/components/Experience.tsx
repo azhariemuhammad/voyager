@@ -48,7 +48,7 @@ const ExperienceList = () => {
                 <p>
                   <span>{item.company}</span> <span>{item.contract}</span>
                 </p>
-                <p>
+                <p className="text-xs">
                   <span>{item.startDate}</span> - <span>{item.endDate}</span>{" "}
                 </p>
               </motion.div>

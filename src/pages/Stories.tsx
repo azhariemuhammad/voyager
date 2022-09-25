@@ -9,7 +9,7 @@ const Blog = () => {
   const feedItems = data?.items || [];
 
   return (
-    <div className="mt-8">
+    <div className="max-w-full mt-8">
       {feedItems.map((item, idx) => {
         const index = idx + 1;
         return (
@@ -19,15 +19,15 @@ const Blog = () => {
             target="_blank"
             key={item.guid}
           >
-            <div className="mr-16 md:text-5xl lg:text-3xl text-amber-500">
+            <div className="mr-5 lg:mr-6 text-3xl lg:text-2xl text-amber-500">
               {index}
             </div>
             <div className="w-full">
-              <h2 className="title lg:text-xl md:text-4xl group-hover:text-amber-500 font-semibold">
+              <h2 className="title lg:text-2xl text-xl group-hover:text-amber-500 font-semibold">
                 {item.title}
               </h2>
               <div>
-                <p className="mt-2 lg:text-sm md:text-2xl text-gray-600">
+                <p className="mt-2 lg:text-sm  text-gray-600">
                   {dayjs(item.pubDate).format("MMMM DD, YYYY")}
                 </p>
               </div>
