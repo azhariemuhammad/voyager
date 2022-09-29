@@ -1,6 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
+
 import Companies from '../components/Companies';
+import { SKILLS } from '../constants';
+
+const BASE_SITE_URL = import.meta.env.BASE_SITE_URL || '';
 
 const container = {
 	hidden: { opacity: 1, scale: 0 },
@@ -23,62 +28,60 @@ const item = {
 };
 
 const About = () => {
-	const skills = [
-		'React',
-		'CSS',
-		'JS',
-		'Typescript',
-		'Angular',
-		'Framer',
-		'CI/CD',
-		'Tailwind',
-		'Webpack',
-		'Vite',
-	];
 	return (
-		<div className="max-w-full">
-			<p className="my-6 sm:text-4xl lg:text-base">
-				I&lsquo;m a Software engineer with over 4 years of experience. Living in
-				Makassar - Indonesia. I started my career as Angular dev and now my
-				day-to-day job is working with React as my main tech stack. I love to
-				write CSS. I&lsquo;m comfortable working with Typescript, Node JS, GIT,
-				and CI/CD. I have basic knowledge about AWS stack. I am passionate about
-				teaching others about Web Development. I build my own Web Dev community
-				with over 2000 junior devs.
-			</p>
-			<p className="sm:text-4xl lg:text-base">
-				I share thoughts on{' '}
-				<a href="https://twitter.com/azharieazharou" className="text-amber-500">
-					Twitter
-				</a>
-			</p>
+		<>
+			<Helmet>
+				<title>👋 Azharie | About</title>
+				<link rel="canonical" href={`${BASE_SITE_URL}`} />
+			</Helmet>
 
-			<Companies />
+			<div className="max-w-full">
+				<p className="my-6 sm:text-4xl lg:text-base">
+					I&lsquo;m a Software engineer with over 4 years of experience. Living
+					in Makassar - Indonesia. I started my career as Angular dev and now my
+					day-to-day job is working with React as my main tech stack. I love to
+					write CSS. I&lsquo;m comfortable working with Typescript, Node JS,
+					GIT, and CI/CD. I have basic knowledge about AWS stack. I am
+					passionate about teaching others about Web Development. I build my own
+					Web Dev community with over 2000 members.
+				</p>
+				<p className="sm:text-4xl lg:text-base">
+					I share thoughts on{' '}
+					<a
+						href="https://twitter.com/azharieazharou"
+						className="text-amber-500"
+					>
+						Twitter
+					</a>
+				</p>
 
-			<div className="mt-20 flex flex-col">
-				<div>
-					<h2 className="font-semibold text-center text-gray-600 py-6">
-						I&lsquo;ve spent most of my development life in Frontend things!
-					</h2>
+				<Companies />
+
+				<div className="mt-20 flex flex-col">
+					<div>
+						<h2 className="font-semibold text-center text-gray-600 py-6">
+							I&lsquo;ve spent most of my development life in Frontend things!
+						</h2>
+					</div>
+					<motion.div
+						className="flex flex-wrap"
+						variants={container}
+						initial="hidden"
+						animate="visible"
+					>
+						{SKILLS.map((skill, idx) => (
+							<motion.div
+								key={idx}
+								variants={item}
+								className=" bg-violet-900 w-fit text-xs shadow-violet-400 m-1 text-white w-fit rounded-full cursor-pointer shadow-md hover:shadow-lg  py-2 px-4"
+							>
+								{skill}
+							</motion.div>
+						))}
+					</motion.div>
 				</div>
-				<motion.div
-					className="flex flex-wrap"
-					variants={container}
-					initial="hidden"
-					animate="visible"
-				>
-					{skills.map((skill, idx) => (
-						<motion.div
-							key={idx}
-							variants={item}
-							className=" bg-violet-900 w-fit text-xs shadow-violet-400 m-1 text-white w-fit rounded-full cursor-pointer shadow-md hover:shadow-lg  py-2 px-4"
-						>
-							{skill}
-						</motion.div>
-					))}
-				</motion.div>
 			</div>
-		</div>
+		</>
 	);
 };
 
