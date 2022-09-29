@@ -1,6 +1,7 @@
 import React from "react";
 import { AnimateSharedLayout, motion } from "framer-motion";
 import ExperienceList from "../components/Experience";
+import Companies from "../components/Companies";
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -47,22 +48,17 @@ const About = () => {
         with over 2000 junior devs.
       </p>
       <p className="sm:text-4xl lg:text-base">
-        You can follow me on{" "}
+        I share thoughts on{" "}
         <a href="https://twitter.com/azharieazharou" className="text-amber-500">
           Twitter
         </a>
-        &nbsp;and&nbsp;
-        <a
-          href="https://www.linkedin.com/in/azharie-muhammad/"
-          className="text-amber-500"
-        >
-          LinkedIn
-        </a>
       </p>
+
+      <Companies />
 
       <div className="mt-20 flex flex-col">
         <div>
-          <h2 className="text-xl lg:text-4xl py-6">
+          <h2 className="font-semibold text-gray-600 py-6">
             I've spent most of my development life in Frontend things!
           </h2>
         </div>
@@ -76,7 +72,7 @@ const About = () => {
             <motion.div
               key={idx}
               variants={item}
-              className=" bg-violet-900 w-fit text-xs lg:text-base shadow-violet-400 m-1 text-white w-fit rounded-full cursor-pointer shadow-md hover:shadow-lg  py-2 px-4"
+              className=" bg-violet-900 w-fit text-xs shadow-violet-400 m-1 text-white w-fit rounded-full cursor-pointer shadow-md hover:shadow-lg  py-2 px-4"
             >
               {skill}
             </motion.div>
