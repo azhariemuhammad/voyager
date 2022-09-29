@@ -58,7 +58,7 @@ const About = () => {
 
       <div className="mt-20 flex flex-col">
         <div>
-          <h2 className="font-semibold text-gray-600 py-6">
+          <h2 className="font-semibold text-center text-gray-600 py-6">
             I've spent most of my development life in Frontend things!
           </h2>
         </div>
