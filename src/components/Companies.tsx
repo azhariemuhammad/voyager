@@ -24,8 +24,7 @@ const Companies = () => {
 	return (
 		<div className="mt-20">
 			<h2 className="font-semibold text-gray-600 text-center text">
-				I&apos;m privilage to work with these amazing Companies and
-				Organizations
+				I&apos;m privilage to work with these amazing companies and organization
 			</h2>
 
 			<div className="flex justify-center items-center">

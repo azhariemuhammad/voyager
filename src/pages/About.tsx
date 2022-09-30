@@ -35,18 +35,35 @@ const About = () => {
 				<link rel="canonical" href={`${BASE_SITE_URL}`} />
 			</Helmet>
 
-			<div className="max-w-full">
-				<p className="my-6 sm:text-4xl lg:text-base">
-					I&lsquo;m a Software engineer with over 4 years of experience. Living
-					in Makassar - Indonesia. I started my career as Angular dev and now my
-					day-to-day job is working with React as my main tech stack. I love to
-					write CSS. I&lsquo;m comfortable working with Typescript, Node JS,
-					GIT, and CI/CD. I have basic knowledge about AWS stack. I am
-					passionate about teaching others about Web Development. I build my own
-					Web Dev community with over 2000 members.
-				</p>
+			<div className="max-w-full my-3">
+				<h6 className="text-md font-semibold text-gray-600 py-2">
+					What I use to do
+				</h6>
 				<p className="sm:text-4xl lg:text-base">
-					I share thoughts on{' '}
+					I spent 3 years working as medical technologist, analyzing clinical
+					samples (blood, urine and other infectious speciments).2
+				</p>
+
+				<h6 className="text-md font-semibold text-gray-600 py-2">
+					Switch Career
+				</h6>
+				<p>
+					Then in 2017 I switched my career into tech after learn how to code in
+					a coding bootcamp for 6 months. Now{' '}
+					<strong>
+						{' '}
+						I&lsquo;m a Software engineer with over 4 years of experience.
+					</strong>{' '}
+					Living in Makassar, Indonesia. I started my tech career as Angular dev
+					and now my day-to-day job is working with React as my main tech stack.
+				</p>
+				<h6 className="text-md font-semibold text-gray-600 py-2">
+					Writing Online
+				</h6>
+				<p className="sm:text-4xl lg:text-base">
+					I started writing online in the end of 2021. I published threads on
+					Twitter, since then I grow my audience from 100+ to 4500+ followers.
+					<br />I love sharing thoughts on &nbsp;
 					<a
 						href="https://twitter.com/azharieazharou"
 						className="text-amber-500"
@@ -56,6 +73,15 @@ const About = () => {
 				</p>
 
 				<Companies />
+
+				<div>
+					<h6 className="text-md font-semibold text-gray-600 py-2">
+						There is more in my life than Code!
+					</h6>
+					<p>I love reading</p>
+					<p>I do mentoring</p>
+					<p>I build an online community on discord</p>
+				</div>
 
 				<div className="mt-20 flex flex-col">
 					<div>
