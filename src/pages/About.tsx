@@ -41,7 +41,7 @@ const About = () => {
 				</h6>
 				<p className="sm:text-4xl lg:text-base">
 					I spent 3 years working as medical technologist, analyzing clinical
-					samples (blood, urine and other infectious speciments).2
+					samples (blood, urine and other infectious speciments).
 				</p>
 
 				<h6 className="text-md font-semibold text-gray-600 py-2">
@@ -71,9 +71,6 @@ const About = () => {
 						Twitter
 					</a>
 				</p>
-
-				<Companies />
-
 				<div>
 					<h6 className="text-md font-semibold text-gray-600 py-2">
 						There is more in my life than Code!
@@ -82,6 +79,8 @@ const About = () => {
 					<p>I do mentoring</p>
 					<p>I build an online community on discord</p>
 				</div>
+
+				<Companies />
 
 				<div className="mt-20 flex flex-col">
 					<div>
