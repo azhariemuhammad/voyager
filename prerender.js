@@ -16,7 +16,6 @@ const routesToPrerender = fs
 		return name === 'about' ? `/` : `/${name}`;
 	});
 
-console.log({ routesToPrerender });
 
 (async () => {
 	// pre-render each route...

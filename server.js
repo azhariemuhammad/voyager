@@ -5,7 +5,6 @@ import { createServer as createViteServer } from 'vite';
 import path from 'path';
 
 const __dirname = path.dirname(import.meta.url);
-console.log({ __dirname });
 
 const PORT = 3001;
 const resolve = (p) => path.resolve(__dirname, p);

@@ -11,7 +11,6 @@ const BASE_SITE_URL = import.meta.env.BASE_SITE_URL || '';
 const Blog = () => {
 	const { data, error } = useGetMediumRSS();
 
-	console.log({ data, error });
 	const feedItems = data?.items || [];
 
 	return (
